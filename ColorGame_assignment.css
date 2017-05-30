@@ -1,0 +1,86 @@
+
+
+body{
+	background-color:#232323;
+	margin:0;  
+    font-family: "Avenir";   
+}
+
+
+.usersquare{  			
+	width: 30%;
+	background-color: purple;
+    padding-bottom:30%;   
+	float:left;		    
+	margin:1.66%;
+	border-radius:15%;   
+    transition: background 0.3s;  
+    -webkit-transition: background 0.3s;  
+    -moz-transition: background 0.3s;  
+}
+
+
+#userbox{              
+	width: 33%;
+    margin-left: 33%;
+    margin-right: 33%;
+    }
+
+
+h1{
+    	color:white; 
+    	text-align:center;
+    	text-transform: uppercase;
+    	background-color: steelblue;
+    	margin:0;  
+        font-weight: 400;   
+        line-height: 1.1;
+        padding-top:20px;   
+        padding-bottom:20px;
+    }
+   
+
+span{
+    	color:white;
+    	font-size: 150%; 
+    }
+
+
+#stripe{						
+ 	height:30px;
+ 	background-color: white;
+ 	text-align:center;
+ 	margin-bottom:10px;  
+ }
+
+
+.selected{
+ 	background-color:steelblue;   
+ 	color:white;
+ }
+
+
+button{
+ 	border:none;   
+ 	background-color: white; 
+ 	font-size: 100%;  
+ 	margin-top:3px;   
+ 	color: steelblue;   
+ 	font-weight:700;
+ 	letter-spacing:1px;  
+  	transition:all 0.5s; 
+    -webkit-transition: all 0.5s;  
+    -moz-transition: all 0.5s;  
+    outline:none;   
+ }
+
+button:hover{			
+  	background-color: steelblue;
+  	color:white; 	 	
+ }
+
+
+#message{
+ 	display:inline-block;   
+ 	width:8%;
+ }
